@@ -4,7 +4,9 @@
 ## Збірка образу
 
 Було створено файл `Dockerfile` для застосунку `apps/simple-app`, який описує процес збірки та запуску контейнера.
+## Dockerfile
 
+```dockerfile
 FROM golang:1.23-alpine AS deps
 WORKDIR /app
 
@@ -31,6 +33,8 @@ USER app
 EXPOSE 8080
 
 CMD ["./simple-app"]
+```
+
 
 ```bash
 docker build -t simple-app .
