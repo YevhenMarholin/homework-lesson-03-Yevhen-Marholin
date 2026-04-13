@@ -16,7 +16,7 @@ docker run --rm -p 8080:8080 --name simple-app simple-app
 Відкрити в браузері:
 - http://localhost:8080
 - http://localhost:8080/health
-додав  ![alt text](image-1.png)
+додав https://github.com/YevhenMarholin/homework-lesson-03-Yevhen-Marholin/blob/46c2399d225bfd65867228b412fb745435c6095d/image.png
 ---
 
 ## Порт
